@@ -5,9 +5,9 @@ Added and modified his code to make this abomination that's somewhere between In
 I call it "Instabook"
 
 # What you should do with this
-Clone the repo
-Modify the code
-E-mail me the code so that i can upload a new folder
- i.e: social-network-1
+Clone the repo \n
+Modify the code \n
+E-mail me the code so that i can upload a new folder \n
+\ti.e: social-network-1
 
  
