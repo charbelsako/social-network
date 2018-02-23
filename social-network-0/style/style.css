@@ -1,0 +1,162 @@
+body { margin: 0px; font-family: Tahoma, Geneva, sans-serif; font-size: 14px; }
+/* PAGE TOP */
+#avatar{
+	width: 40px;
+	height: 40px;
+}
+#toggle{
+	transition: opacity .4s ease;
+	-webkit-transition: opacity .4s ease;
+	-o-transition: opacity .4s ease;
+	-moz-transition: opacity .4s ease;	
+}
+#pageTop {
+	background: url(headerSliver.png) repeat-x;
+	height: 90px;
+}
+#pageTop > #pageTopWrap {
+	width: 1000px;
+	margin: 0px auto;
+	height: 90px;
+}
+#pageTop > #pageTopWrap > #pageTopLogo {
+	float: left;
+	height: 90px;
+	width: 108px;
+}
+#pageTop > #pageTopWrap > #pageTopRest {
+	float: left;
+	height: 90px;
+	width: 892px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 {
+	height: 44px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 > div {
+	margin-top: 8px;
+	padding: 4px;
+	text-align:right;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 > div > a {
+	color: #CCC;
+	text-decoration: none;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 > div > a:hover {
+	color: #C0E73D;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 {
+	height: 44px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 > div {
+	margin-top: 2px;
+	padding: 4px;
+}
+
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 > div > a {
+	display: block;
+	float: left;
+	color:#CCC;
+	text-decoration: none;
+	margin: 0px 16px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 > div > a:hover {
+	color: #C0E73D;
+}
+/* PAGE MIDDLE */
+#pageMiddle{
+	width: 1000px;
+	margin: 0px auto;
+	height: 900px;
+}
+/* PAGE BOTTOM */
+#pageBottom{
+	background: #666;
+	padding: 24px;
+	font-size: 12px;
+	color: #CCC;
+	text-align: center;
+}
+td{
+	padding: 0px;	
+}
+#pp{
+	width: 50px;
+	height: 50px;
+}
+#name{
+	width: 250px;
+	height: 50px;
+}
+#image{
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#likeArea input{
+	height: 36px;
+	border: 0px;	
+	border-radius: 5px;
+	padding: 7px;
+}
+#commentingArea{
+	text-align:center;	
+}
+#commentingArea #comment{
+	background: white;
+	height: 26px;
+	padding: 6px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+#commentSubmit{
+	height: 25px;
+	padding: 0px;
+	margin-left: 10px;
+	
+	border-radius: 0px;
+}
+#pictureTable{
+	margin-bottom: 30px;	
+}
+#userimg{
+	height:300px;
+	width: 300px;
+		
+}
+#commForm{
+	margin-top: auto;
+	margin-bottom: auto;	
+}
+td#likeArea button{
+	background: #fff;
+	border: 0px;
+	
+}
+td#likeArea button:hover{
+	text-decoration:underline;
+	cursor: pointer;
+}
+form#editProfileForm{
+	width: 300px;
+	border: 1px dashed yellow;
+	display: none;
+}
+form#editProfileForm input{
+	margin: 10px;
+}
+form#editProfileForm input[required]:after{
+	color: #F00;
+	content: "*";
+}
+#info{
+	display:block;
+}
+#caption{
+	margin-bottom: 10px;
+	height: 40px;
+	width: 200px;
+	resize: none;
+	background: #F3FDD0;
+	text-transform:uppercase;	
+}

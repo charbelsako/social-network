@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title>NEWSFEED Prototype css </title>
+<link rel="stylesheet" href="style/style.css" type="text/css" />
+</head>
+<body>
+
+<table border="1" >
+	<tr>
+		<td> profile </td> 
+		<td> name </td>
+	</tr>
+	<tr>
+		<td> img </td>
+	</tr>
+</table>
+</body>
+
+</html>
